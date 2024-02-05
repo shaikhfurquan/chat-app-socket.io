@@ -51,7 +51,7 @@ const ChatComp = ({ socket, username, room }) => {
       <div className="chat_container">
         <h1>Welcome {username} </h1>
         <div className="chat_box">
-          <div className="auto-scrolling-div" ref={containRef} style={{ height: '450px', overflowY: "auto", border: "2px solid red" }}>
+          <div className="auto-scrolling-div" ref={containRef} style={{ height: '450px', overflowY: "auto"}}>
 
             {
               messageList.map((data) => (

@@ -1,6 +1,8 @@
 body {
   background-color: black;
   color: white;
+  font-family: 'Protest Riot', sans-serif;
+  font-family: 'Song Myung', serif;
 }
 
 .join_room {
@@ -62,12 +64,14 @@ body {
 .chat_body input {
   height: 30px;
   width: 330px;
-  border: 1px solid red
+  border: 1px solid red;
+  font-size: 20px
+  
 }
 
 .chat_body input::placeholder {
   font-size: 1rem;
-  font-weight: bolder;
+  font-weight: bold;
   padding: 5px;
 }
 
@@ -82,8 +86,7 @@ body {
   display: flex;
   line-height: 0;
   margin: 10px;
-  font-weight: bolder;
-
+  /* font-weight: bold; */
 
 }
 
@@ -95,8 +98,8 @@ body {
 
 #y {
   background-color: rgb(21, 0, 255);
-  padding: 10px;
-  border-radius: 1%;
+  padding: 1px 15px ;
+  border-radius: 10px;
 }
 
 #other {
@@ -106,8 +109,8 @@ body {
 
 #b {
   background-color: rgb(156, 102, 3);
-  padding: 10px;
-  border-radius: 1%;
+  padding: 1px 15px ;
+  border-radius: 10px;
   color: black;
 }
 
@@ -119,6 +122,6 @@ body {
 }
 
 
-.auto-scrolling-div::-webkit-scrollbar{
+.auto-scrolling-div::-webkit-scrollbar {
   display: none;
 }
