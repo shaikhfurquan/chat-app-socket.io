@@ -77,3 +77,48 @@ body {
   background-color: brown;
   color: white;
 }
+
+.message_content {
+  display: flex;
+  line-height: 0;
+  margin: 10px;
+  font-weight: bolder;
+
+
+}
+
+
+#you {
+  justify-content: flex-end;
+
+}
+
+#y {
+  background-color: rgb(21, 0, 255);
+  padding: 10px;
+  border-radius: 1%;
+}
+
+#other {
+  justify-content: flex-start;
+
+}
+
+#b {
+  background-color: rgb(156, 102, 3);
+  padding: 10px;
+  border-radius: 1%;
+  color: black;
+}
+
+.msg_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.auto-scrolling-div::-webkit-scrollbar{
+  display: none;
+}
